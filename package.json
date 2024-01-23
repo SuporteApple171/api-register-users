@@ -3,10 +3,14 @@
   "version": "1.17.9",
   "description": "Bot brasileiro para Whatsapp com diversas utilidades para o dia-a-dia.",
   "main": "app",
+  "engines": {
+    "node": "20.11.0"
+  },
   "scripts": {
     "start": "node app.js",
     "test": "node test.js"
   },
+
   "author": "Leal",
   "license": "Apache-2.0",
   "dependencies": {
@@ -28,7 +32,6 @@
     "fs-extra": "^9.0.1",
     "g-i-s": "^2.1.6",
     "genius-lyrics": "^4.2.9",
-    "git": "^0.1.5",
     "google-it": "^1.6.3",
     "imgur": "^1.0.2",
     "instagram-url-direct": "^1.0.12",

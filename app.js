@@ -14,6 +14,7 @@ const recarregarContagem = require("./lib/recarregarContagem")
 const {botStart} = require('./lib/bot')
 const {verificarEnv} = require('./lib/env')
 
+const port = process.env.PORT || 3001;
 
 const start = async (client = new Client()) => {
     try{
