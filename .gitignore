@@ -36,3 +36,5 @@ database/json/antiflood.json
 # managed
 **_IGNORE_**
 # end managed
+
+.vercel
